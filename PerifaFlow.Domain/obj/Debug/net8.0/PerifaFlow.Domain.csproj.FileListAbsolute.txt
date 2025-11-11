@@ -1,0 +1,12 @@
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\bin\Debug\net8.0\PerifaFlow.Domain.deps.json
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\bin\Debug\net8.0\PerifaFlow.Domain.dll
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\bin\Debug\net8.0\PerifaFlow.Domain.pdb
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\PerifaFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\PerifaFlow.Domain.AssemblyInfoInputs.cache
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\PerifaFlow.Domain.AssemblyInfo.cs
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\PerifaFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\PerifaFlow.Domain.sourcelink.json
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\PerifaFlow.Domain.dll
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\refint\PerifaFlow.Domain.dll
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\PerifaFlow.Domain.pdb
+C:\Users\labsfiap\RiderProjects\PerifaFlow\PerifaFlow.Domain\obj\Debug\net8.0\ref\PerifaFlow.Domain.dll
