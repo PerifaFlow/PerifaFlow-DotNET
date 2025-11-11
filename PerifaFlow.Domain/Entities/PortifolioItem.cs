@@ -4,11 +4,18 @@ namespace PerifaFlow.Domain.Entities;
 
 public class PortifolioItem : BaseEntity
 {
-    public Guid UsuarioId { get; set; }
-    public string? Descricao { get; set; }
-    public ICollection<Entrega> Entregas { get; set; } = new List<Entrega>();
-    public string? UrlPublica { get; set; }   
+    public Guid UsuarioId { get; private set; }
+    public string? Descricao { get; private set; }
+    public ICollection<Entrega> Entregas { get; private set; } = new List<Entrega>();
+    public string? UrlPublica { get; private set; }   
     public ICollection<string> Badges { get; private set; } = new List<string>();
+
+    public PortifolioItem(string descricao, string urlPublica, Guid usuarioId)
+    {
+        Descricao = descricao;
+        UrlPublica = urlPublica;
+        UsuarioId = usuarioId;
+    }
     
     public void AdicionarEntrega(Entrega entrega)
     {
