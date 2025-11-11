@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerifaFlow.API", "PerifaFlow.API\PerifaFlow.API.csproj", "{20178068-B962-4969-B7B5-322809124575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{486F6CDB-DB9F-4991-8C6F-798F50F7F5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerifaFlow.Application", "PerifaFlow.Application\PerifaFlow.Application.csproj", "{C7E19345-0FA5-4C7B-992C-15A26459C69F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerifaFlow.Infrastructure", "PerifaFlow.Infrastructure\PerifaFlow.Infrastructure.csproj", "{0AA3F408-8F5E-4110-8225-3D64466F69B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerifaFlow.Domain", "PerifaFlow.Domain\PerifaFlow.Domain.csproj", "{46C98DB3-884B-415C-A2C5-5F5FECF9AAAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20178068-B962-4969-B7B5-322809124575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20178068-B962-4969-B7B5-322809124575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20178068-B962-4969-B7B5-322809124575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20178068-B962-4969-B7B5-322809124575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E19345-0FA5-4C7B-992C-15A26459C69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E19345-0FA5-4C7B-992C-15A26459C69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E19345-0FA5-4C7B-992C-15A26459C69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E19345-0FA5-4C7B-992C-15A26459C69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA3F408-8F5E-4110-8225-3D64466F69B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA3F408-8F5E-4110-8225-3D64466F69B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA3F408-8F5E-4110-8225-3D64466F69B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA3F408-8F5E-4110-8225-3D64466F69B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C98DB3-884B-415C-A2C5-5F5FECF9AAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C98DB3-884B-415C-A2C5-5F5FECF9AAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C98DB3-884B-415C-A2C5-5F5FECF9AAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C98DB3-884B-415C-A2C5-5F5FECF9AAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20178068-B962-4969-B7B5-322809124575} = {486F6CDB-DB9F-4991-8C6F-798F50F7F5AD}
+		{C7E19345-0FA5-4C7B-992C-15A26459C69F} = {486F6CDB-DB9F-4991-8C6F-798F50F7F5AD}
+		{0AA3F408-8F5E-4110-8225-3D64466F69B1} = {486F6CDB-DB9F-4991-8C6F-798F50F7F5AD}
+		{46C98DB3-884B-415C-A2C5-5F5FECF9AAAB} = {486F6CDB-DB9F-4991-8C6F-798F50F7F5AD}
+	EndGlobalSection
+EndGlobal
