@@ -3,7 +3,7 @@ using PerifaFlow.Domain.Enum;
 
 namespace PerifaFlow.Domain.Entities;
 
-public class CodigoVerificação : BaseEntity
+public class CodigoVerificacao : BaseEntity
 {
     public string Telefone { get; private set; } = string.Empty;
     public string Codigo { get; private set; } = string.Empty;
@@ -12,7 +12,7 @@ public class CodigoVerificação : BaseEntity
     
     public bool EstaExpirado() => DateTime.UtcNow > ExpiraEm;
 
-    public CodigoVerificação(string telefone, string codigo)
+    public CodigoVerificacao(string telefone, string codigo)
     {
         Telefone = telefone;
         Codigo = codigo;
