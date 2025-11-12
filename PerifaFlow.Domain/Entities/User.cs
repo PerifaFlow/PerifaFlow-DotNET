@@ -20,16 +20,24 @@ public class User : BaseEntity
     public ICollection<Entrega> Entregas { get; private set; } = new List<Entrega>();
     public ICollection<Trilha> Trilhas { get; private set; } = new List<Trilha>();
     
-    public User(string nome, string telefone, string? email = null)
+    public User(string nome, string telefone, string? email = null, string? bio = null, string? localizacao = null, string? areaDeInteresse = null)
     {
         Nome = nome;
         Telefone = telefone;
         Email = email;
+        Bio = bio;
+        Localizacao = localizacao;
+        AreaDeInteresse = areaDeInteresse;
         Nivel = 1;
         Experiencia = 0;
         RitmoMedio = null;
     }
-    
+
+    public User(string telefone)
+    {
+        Telefone = telefone;
+    }
+
     public void AdicionarExperiencia(int xp)
     {
         Experiencia += xp;
