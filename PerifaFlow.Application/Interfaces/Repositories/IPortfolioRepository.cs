@@ -1,6 +1,6 @@
 namespace PerifaFlow.Application.Interfaces.Repositories.Mongo;
 
-public interface IUserMongoRepository
+public class IPortfolioRepository
 {
     
 }
