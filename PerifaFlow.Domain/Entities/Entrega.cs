@@ -16,6 +16,7 @@ public class Entrega : BaseEntity
     public Guid UsuarioId { get; private set; }
     public Guid MissaoId { get; private set; }
     
+
     public Entrega(Guid usuarioId, Guid missaoId, TipoEntrega tipo, string conteudo, string? urlMidia = null)
     {
         UsuarioId = usuarioId;
