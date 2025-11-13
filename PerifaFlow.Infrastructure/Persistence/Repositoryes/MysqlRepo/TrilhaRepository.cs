@@ -10,13 +10,13 @@ public class TrilhaRepository(PerifaFlowContext context) : ITrilhaRepository
     private readonly PerifaFlowContext _context = context;
 
 
-    public Task<IEnumerable<Trilha>> ListarAsync(int page, int pageSize)
+    public async Task<IEnumerable<Trilha>> ListarAsync(int page, int pageSize)
     {
-        
+        return _context.Trilhas.AsNoTracking();
     }
 
-    public Task<Trilha?> ObterPorIdAsync(Guid id)
+    public async Task<Trilha?> ObterPorIdAsync(Guid id)
     {
-        
+        return await _context.Trilhas.FindAsync(id);
     }
 }

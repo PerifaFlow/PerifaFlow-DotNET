@@ -8,18 +8,18 @@ public class MissaoRepository(PerifaFlowContext context) : IMissaoRepository
 {
     private readonly PerifaFlowContext _context = context;
 
-    public Task<Missao?> ObterPorIdAsync(Guid id)
+    public async Task<Missao?> ObterPorIdAsync(Guid id)
     {
-        
+        return await _context.Missao.FindAsync(id);
     }
 
-    public Task<IEnumerable<Missao>> ListarPorTrilhaAsync(Guid trilhaId)
+    public async Task<IEnumerable<Missao>> ListarPorTrilhaAsync(Guid trilhaId)
     {
-       
+        return trilhaId;
     }
 
-    public Task CriarAsync(Missao missao)
+    public async Task CriarAsync(Missao missao)
     {
-        
+        return missao;
     }
 }
