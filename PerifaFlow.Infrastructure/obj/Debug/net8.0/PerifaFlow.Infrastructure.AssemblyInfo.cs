@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerifaFlow.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6da1c50030237847f2c39f9b47a1404ff58ea837")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46d9b0f9da1a5600a74435bae4a9b43e449a2bfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerifaFlow.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerifaFlow.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
