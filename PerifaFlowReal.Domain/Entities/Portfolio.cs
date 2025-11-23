@@ -12,7 +12,7 @@ public class Portfolio : Audit
     public List<Entrega> Entrega { get; private set; }
     
     
-    public Portfolio (string titulo, string url,  Guid userID, Guid entregaID)
+    public Portfolio (string titulo, string url,  Guid userID)
     {
         Id = Guid.NewGuid();
         Titulo = titulo;
